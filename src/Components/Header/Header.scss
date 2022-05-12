@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100px;
+  position: fixed;
+  background: #fff;
+  transition: transform 0.2s linear;
+  font-size: 12px;
+  letter-spacing: 2px;
+  z-index: 1;
+}
+.hideHeader {
+  transform: translateY(-100px);
+}
+
+.nav {
+  width: 30%;
+  ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    li {
+      list-style-type: none;
+      cursor: pointer;
+      margin-right: 15px;
+      a {
+        color: #111;
+      }
+    }
+  }
+}
+.login {
+  text-decoration: none;
+  color: #111;
+}
+
+.nav2 {
+  width: 30%;
+  color: #111;
+
+  ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    li {
+      list-style-type: none;
+      margin-right: 15px;
+      cursor: pointer;
+    }
+  }
+}
+.img {
+  vertical-align: baseline;
+  width: 250px;
+  height: auto;
+  max-height: 100px;
+  padding: 27px 0;
+  padding-top: 27px;
+  padding-right: 0px;
+  padding-bottom: 27px;
+  padding-left: 0px;
+  box-sizing: inherit;
+}
+
+.products {
+  text-decoration: none;
+  color: #111;
+}
+.cart {
+  cursor: pointer;
+}
+
+li:hover {
+  opacity: 0.7;
+}
+.login:hover {
+  opacity: 0.7;
+}

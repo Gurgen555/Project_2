@@ -1,0 +1,27 @@
+.footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  color: #212121;
+  margin-top: 45px;
+  div {
+    width: 25%;
+    font-size: 1rem;
+    line-height: 35px;
+    h3 {
+      padding-bottom: 15px;
+    }
+    ul {
+      li {
+        list-style-type: none;
+      }
+    }
+  }
+}
+.social {
+  padding-left: 30px;
+}
+
+.browse {
+  padding-left: 30px;
+}

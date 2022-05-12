@@ -1,0 +1,90 @@
+.mainProd {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 50px;
+}
+
+
+.imgDiv {
+  width: 300px;
+  height: 300px;
+  background-color: #f5f5f5;
+  position: relative;
+  margin: 0 20px;
+  img {
+    width: 220px;
+    height: 220px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .option {
+    opacity: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #444631;
+    color: #FFFFFF;
+    position: absolute;
+    bottom: 0;
+    transition: 0.5s linear;
+
+    .optionDiv {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 10px;
+      cursor: pointer;
+    }
+    p {
+      text-align: center;
+      font-size: 11px;
+      letter-spacing: 1px;
+    }
+  }
+}
+.imgDiv:hover {
+  .option {
+    opacity: 1;
+  }
+}
+.nameDivs {
+  // width: 250px;
+  // height: auto;
+  margin-top: 20px;
+  text-align: center;
+  font-size: 12px; 
+  letter-spacing: 2px;
+}
+
+
+.titleStore {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  h2 {
+    text-align: center;
+  }
+  .line {
+    margin-top: 15px;
+    width: 36px;
+    height: 3px;
+    background-color: #444631;
+    text-align: center;
+  }
+  
+}
+
+.storeTxt{
+  width: 45%;
+  letter-spacing: 2px;
+  line-height: 2;
+  margin-top: 15px;
+  text-align: center;
+  font-size: 14px;
+ 
+}

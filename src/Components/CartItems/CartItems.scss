@@ -1,0 +1,132 @@
+.cartContiner {
+  width: 100%;
+  background-color: #ffffff;
+  overflow: scroll;
+  overflow-x: hidden;
+  max-height: 600px;
+
+  .prodCarts {
+    margin: 20px;
+    background-color: #ffffff;
+
+    .cartImg {
+      img {
+        width: 80px;
+        height: 80px;
+        transition: 0.8s ease;
+      }
+      img:hover {
+        opacity: 0.7;
+      }
+    }
+    .cartBlock {
+      margin: 10px;
+      display: flex;
+      align-items: center;
+    }
+    .imgTitle {
+      width: 65%;
+      display: flex;
+      align-items: center;
+    }
+    .prodsTitle {
+      margin-left: 20px;
+      width: 50%;
+      h2 {
+        font-size: 1rem;
+        letter-spacing: 2px;
+      }
+    }
+    .cartCount {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      width: 20%;
+      .plus {
+        text-align: center;
+        cursor: pointer;
+        width: 27px;
+        height: 28px;
+        border: 1px solid black;
+        p {
+          margin-top: 3px;
+        }
+      }
+      .minus {
+        text-align: center;
+        cursor: pointer;
+        width: 27px;
+        height: 28px;
+        border: 1px solid black;
+        p {
+          margin-top: 3px;
+        }
+      }
+      .cartCountSpan {
+        text-align: center;
+        cursor: pointer;
+        width: 27px;
+        height: 28px;
+        border: 1px solid black;
+        p {
+          margin-top: 5px;
+        }
+      }
+    }
+    .money {
+      letter-spacing: 2px;
+      line-height: 18px;
+      font-size: 15px;
+    }
+  }
+  .cartFooter {
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .footerText {
+      p {
+        font-size: 0.9rem;
+        line-height: 2rem;
+      }
+    }
+    .totalPrice {
+      font-size: 1.1rem;
+      line-height: 2rem;
+    }
+  }
+  .cartFootBtn {
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .cntBtn {
+      width: 50%;
+      padding: 9px 30px;
+      margin-left: 10px;
+      background-color: #ffffff;
+      border: 1px solid;
+      font-size: 0.8rem;
+      letter-spacing: 2px;
+      cursor: pointer;
+    }
+    .cntBtn:hover {
+      background-color: #111;
+      color: #ffffff;
+    }
+    .chekBtn {
+      width: 50%;
+      padding: 9px 30px;
+      margin-left: 10px;
+      background-color: #444631;
+      color: #ffffff;
+      font-size: 0.8rem;
+      letter-spacing: 2px;
+      border: none;
+      cursor: pointer;
+    }
+    .chekBtn:hover {
+      background-color: #353727;
+    }
+  }
+}

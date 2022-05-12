@@ -1,0 +1,111 @@
+.accountBody {
+  position: relative;
+  height: 100vh;
+  .accountTitle {
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    transform: translate(-50%, -50%);
+    h2 {
+      text-align: center;
+    }
+    .line {
+      position: absolute;
+      margin-top: 18px;
+      width: 36px;
+      height: 3px;
+      background-color: #444631;
+      left: 49%;
+    }
+  }
+  .form {
+    position: absolute;
+    left: 50%;
+    top: 54%;
+    transform: translate(-50%, -50%);
+    width: 45%;
+    margin-left: 2px;
+
+    .fslsNames {
+      display: flex;
+      width: 100%;
+      align-items: center;
+
+      div {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+      }
+      .lastName {
+        padding-left: 20px;
+      }
+      label {
+        font-size: 1rem;
+        line-height: 1.7em;
+        padding-top: 25px;
+      }
+      .fsInp {
+        padding: 11px;
+        height: 23px;
+        cursor: pointer;
+        outline: none;
+      }
+      .lstInp {
+        padding: 12px;
+        height: 23px;
+        cursor: pointer;
+        outline: none;
+      }
+    }
+    .emialpwwsInp {
+      div {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        input {
+          padding: 11px;
+
+          height: 23px;
+          cursor: pointer;
+          outline: none;
+        }
+        label {
+          font-size: 1rem;
+          line-height: 1.7em;
+          padding-top: 25px;
+        }
+      }
+    }
+    .accountBtn {
+      margin-top: 18px;
+      .create {
+        background-color: #444631;
+        height: auto;
+        letter-spacing: 2px;
+        font-size: 12px;
+        padding: 9px 30px;
+        color: #ffffff;
+        border-radius: 0;
+        line-height: 30px;
+        cursor: pointer;
+
+        border: none;
+      }
+      .create:hover {
+        background-color: #353727;
+      }
+      .return {
+        margin-left: 25px;
+        cursor: pointer;
+        font-size: 11px;
+        letter-spacing: 2px;
+        color: #111;
+        text-decoration: none;
+      }
+      .return:hover {
+        opacity: 0.7;
+      }
+    }
+  }
+}
